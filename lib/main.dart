@@ -19,19 +19,19 @@ class HomeScreen extends StatelessWidget {
   final List<Map<String, String>> clothingItems = [
     {
       "name": "T-Shirt",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://static.owayo-cdn.com/newhp/img/productSelection/st2020_whi_uebersicht.png",
       "description": "A comfortable cotton T-Shirt.",
       "price": "\$20"
     },
     {
       "name": "Jeans",
-      "image": "https://via.placeholder.com/150",
-      "description": "Classic blue denim jeans.",
+      "image": "https://images.napali.app/global/dcshoes-products/all/default/large/adydp03056_dcshoes,f_bsnw_frt1.jpg",
+      "description": "Classic denim jeans.",
       "price": "\$50"
     },
     {
       "name": "Jacket",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://m.media-amazon.com/images/I/81KWzGRf--L._AC_UY350_.jpg",
       "description": "A warm winter jacket.",
       "price": "\$80"
     },
@@ -99,7 +99,7 @@ class DetailScreen extends StatelessWidget {
             SizedBox(height: 16),
             Text(
               item['price']!,
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              style: TextStyle(fontSize: 20, color: Colors.pink),
             ),
           ],
         ),
